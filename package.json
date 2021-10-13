@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
-    "lage": "0.34.1-fallback.0",
+    "lage": "0.34.1-fallback.1",
     "beachball": "^2.1.0"
   }
 }
