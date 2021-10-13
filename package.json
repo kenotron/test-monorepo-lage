@@ -1,0 +1,23 @@
+{
+  "name": "test-monorepo-lage",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "scripts"
+    ]
+  },
+  "scripts": {
+    "clean": "git clean -fdx -e node_modules",
+    "build": "lage build",
+    "typecheck": "lage typecheck",
+    "test": "lage test",
+    "lint": "lage lint",
+    "lage": "lage"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "lage": "0.33.1-fallback.0",
+    "beachball": "^2.1.0"
+  }
+}
