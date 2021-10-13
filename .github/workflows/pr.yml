@@ -37,7 +37,7 @@ jobs:
       # end yarn cache
 
       - run: yarn
-      - run: yarn lage build test
+      - run: yarn lage build test --verbose
         env:
           BACKFILL_CACHE_PROVIDER_OPTIONS: ${{ secrets.BACKFILL_CACHE_PROVIDER_OPTIONS }}
           LAGE_WRITE_REMOTE_CACHE: true
