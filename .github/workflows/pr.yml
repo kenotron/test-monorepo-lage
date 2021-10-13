@@ -25,4 +25,5 @@ jobs:
       - run: yarn lage build test
         env:
           BACKFILL_CACHE_PROVIDER_OPTIONS: ${{ secrets.BACKFILL_CACHE_PROVIDER_OPTIONS }}
+          LAGE_WRITE_REMOTE_CACHE: true
           
