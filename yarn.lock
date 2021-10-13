@@ -3955,10 +3955,10 @@ kleur@^3.0.2, kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-lage@0.33.1-fallback.0:
-  version "0.33.1-fallback.0"
-  resolved "https://registry.yarnpkg.com/lage/-/lage-0.33.1-fallback.0.tgz#b712b724748b1d3c1d3eebaf8d93f98679284a6e"
-  integrity sha512-I2yKTTt3Z6I/JMsHMfzcV8bjzoT7EX/kqaaMZbRIOM6fMxYvMJOHmUWCeMEpT4RbM3O/q1lYvU4CK2jDWwW1Yw==
+lage@0.34.1-fallback.0:
+  version "0.34.1-fallback.0"
+  resolved "https://registry.yarnpkg.com/lage/-/lage-0.34.1-fallback.0.tgz#5996c787e082d84d9dbd1ab6f779b1662315a988"
+  integrity sha512-2ePmvC1+8WWCwIkyT+TwYCpfk7xGb4yVDMJYi7ihRq3pHv8UUykHUG5GkvqHZ+I1TVXSbRXTEEvCEUo59+cmDw==
   dependencies:
     abort-controller "^3.0.0"
     backfill "^6.1.10"
